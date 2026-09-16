@@ -15,14 +15,24 @@ namespace Assignment_2
             //string upperTitle = title.ToUpper();
             //Console.WriteLine(upperTitle);
             //#endregion
-            #region Q2
-            /*Declare two separate string variables, both set to the literal "Clean Code".Use ReferenceEquals() to check if they point to the same object in memory.*/
-            string title1 = "clean code";
-            string title2 = "clean code";
-            bool sameReference = ReferenceEquals(title1, title2);
-            Console.WriteLine(sameReference);
-            #endregion
+            //#region Q2
+            ///*Declare two separate string variables, both set to the literal "Clean Code".Use ReferenceEquals() to check if they point to the same object in memory.*/
+            //string title1 = "clean code";
+            //string title2 = "clean code";
+            //bool sameReference = ReferenceEquals(title1, title2);
+            //Console.WriteLine(sameReference);
+            //#endregion
+            #region Q3
+            /*Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same object. Print the final result.*/
+            
 
+            StringBuilder text = new StringBuilder();
+
+            text.Append("Book List");
+            text.Append(" - Updated");
+
+            Console.WriteLine(text);
+            #endregion
 
         }
     }
