@@ -135,7 +135,13 @@ namespace Assignment_2
             //}
             //while (count < 3);
             //#endregion
-
+            #region Q14
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+            }
+            #endregion
         }
     }
 }
