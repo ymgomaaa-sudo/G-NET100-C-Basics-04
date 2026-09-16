@@ -30,18 +30,26 @@ namespace Assignment_2
             //text.Append(" - Updated");
             //Console.WriteLine(text);
             //#endregion
-            #region Q4 
+            //#region Q4 
             /*Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library". Print the result.*/
-           
-
-            StringBuilder text = new StringBuilder();
-
-            text.Append("Book List");
-            text.Append(" - Updated");
-
-            text.Replace("Book List", "Library");
-
-            Console.WriteLine(text);
+            //StringBuilder text = new StringBuilder();
+            //text.Append("Book List");
+            //text.Append(" - Updated");
+            //text.Replace("Book List", "Library");
+            //Console.WriteLine(text);
+            //#endregion
+            //#region Q5
+            ///*Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code, Pages: 464" using the + operator.*/
+            //string title = "Clean Code";
+            //int pages = 464;
+            //string result = "Book: " + title + ", Pages: " + pages;
+            //Console.WriteLine(result);
+            //#endregion
+            #region Q6
+            string title = "Clean Code";
+            int pages = 464;
+            string result = $"Book:{title},Pages: {pages}";
+            Console.WriteLine(result);
             #endregion
         }
     }
