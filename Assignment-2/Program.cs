@@ -125,16 +125,17 @@ namespace Assignment_2
             //    i++;
             //}
             //#endregion
-            #region Q13
-            //Write a do-while loop that prints "Checking book..." exactly 3 times. 
-            int count = 0;
-            do
-            {
-                Console.WriteLine("Checking book...");
-                count++;
-            }
-            while (count < 3);
-            #endregion
+            //#region Q13
+            ////Write a do-while loop that prints "Checking book..." exactly 3 times. 
+            //int count = 0;
+            //do
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    count++;
+            //}
+            //while (count < 3);
+            //#endregion
+
         }
     }
 }
