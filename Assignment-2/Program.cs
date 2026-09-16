@@ -107,12 +107,23 @@ namespace Assignment_2
 
             //Console.WriteLine(sizeLabel);
             //#endregion
-            #region Q11
-            //Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };, use a for loop to print each book with its position number, like 1.Clean Code.
+            //#region Q11
+            ////Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };, use a for loop to print each book with its position number, like 1.Clean Code.
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    Console.WriteLine($"{i + 1}. {books[i]}");
+            //}
+            //#endregion
+            #region Q12
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            for (int i = 0; i < books.Length; i++)
+
+            int i = 0;
+
+            while (i < books.Length)
             {
-                Console.WriteLine($"{i + 1}. {books[i]}");
+                Console.WriteLine(books[i]);
+                i++;
             }
             #endregion
         }
